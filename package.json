@@ -1,0 +1,14 @@
+{
+  "name": "cypress-icons",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "npm run build",
+    "prebuild": "rm -rf dist && mkdir dist && mkdir dist/icons",
+    "build": "bin/build.sh"
+  },
+  "private": true,
+  "author": "",
+  "license": "ISC"
+}
