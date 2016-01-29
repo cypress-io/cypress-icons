@@ -1,4 +1,4 @@
-icons  = require("../lib/icons")
+icons  = require("../index")
 expect = require("chai").expect
 
 describe "#getPathToFavicon", ->
