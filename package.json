@@ -6,9 +6,16 @@
   "scripts": {
     "postinstall": "npm run build",
     "prebuild": "rm -rf dist && mkdir dist && mkdir dist/icons",
-    "build": "bin/build.sh"
+    "build": "bin/build.sh",
+    "test": "NODE_ENV=test mocha --watch",
+    "test-ci": "NODE_ENV=test mocha"
   },
   "private": true,
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "coffee-script": "^1.10.0",
+    "mocha": "^2.4.5"
+  }
 }
