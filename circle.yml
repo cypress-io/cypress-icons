@@ -1,5 +1,9 @@
 test:
   override:
     - nvm install 5.3
-    - npm install
+
+    ## do not run postinstall scripts since
+    ## linux does not have iconutil and our
+    ## dist is already checked into version control
+    - npm install --ignore-scripts
     - npm run test-ci
