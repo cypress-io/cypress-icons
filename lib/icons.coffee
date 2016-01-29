@@ -1,7 +1,7 @@
 path = require("path")
 
 distPath = (args...) ->
-  path.join("..", "dist", args...)
+  path.join(__dirname, "..", "dist", args...)
 
 module.exports = {
   getPathToFavicon: ->
