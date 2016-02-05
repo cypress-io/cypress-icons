@@ -1,8 +1,8 @@
 # Cypress Icons
 
-The latest versions of the icons are always built `postinstall`.
+The latest versions of the icons are always checked into `./dist`.
 
-The icons you should use are always in `./dist`, and are checked into source control.
+The public API will always reference these files.
 
 ## Installing
 
@@ -15,15 +15,17 @@ npm install
 ```coffeescript
 icons = require("cypress-icons")
 
-## get the path to favicon
-## ./dist/favicon/favicon.ico
+## get the absolute path to favicon
 icons.getPathToFavicon()
+## => /Users/.../dist/favicon/favicon.ico
 
-## get the path to tray icon
+## get the absolute path to tray icon
 icons.getPathToTray( *filename* )
+## => /Users/.../dist/tray/*filename*
 
-## get the path to icon
+## get the absolute path to icon
 icons.getPathToIcon( *filename* )
+## => /Users/.../dist/icons/*filename*
 ```
 
 ## Linking while Developing
@@ -31,12 +33,19 @@ icons.getPathToIcon( *filename* )
 ```bash
 cd cypress-icons
 npm link
-cd ../cypress-app
+cd ../path/to/your/project
 npm link cypress-icons
 ```
 
-## One off build
+## Contributing
 
 ```bash
+## modify files in ./src
+<hack hack hack>
+
+## run build to dump to ./dist
 npm run build
+
+## commit dist + src
+git commit -am 'updated icons'
 ```
