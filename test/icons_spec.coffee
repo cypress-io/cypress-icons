@@ -3,7 +3,7 @@ expect = require("chai").expect
 
 cwd = process.cwd()
 
-describe "#getPathToFavicon", ->
+describe "Cypress Icons", ->
   it "returns path to favicon", ->
     expect(icons.getPathToFavicon()).to.eq(cwd + "/dist/favicon/favicon.ico")
 
