@@ -13,7 +13,7 @@ npm install
 ## API
 
 ```coffeescript
-icons = require("cypress-icons")
+icons = require("cypress-core-icons")
 
 ## get the absolute path to favicon
 icons.getPathToFavicon()
@@ -31,10 +31,10 @@ icons.getPathToIcon( *filename* )
 ## Linking while Developing
 
 ```bash
-cd cypress-icons
+cd cypress-core-icons
 npm link
 cd ../path/to/your/project
-npm link cypress-icons
+npm link cypress-core-icons
 ```
 
 ## Contributing
