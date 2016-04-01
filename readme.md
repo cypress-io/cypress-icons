@@ -1,8 +1,10 @@
 # Cypress Icons
 
-The latest versions of the icons are always checked into `./dist`.
+The latest versions of the icons are distributed on npm as `./dist`.
 
 The public API will always reference these files.
+
+`./dist` is not checked into source control.
 
 ## Installing
 
@@ -46,6 +48,9 @@ npm link cypress-core-icons
 ## run build to dump to ./dist
 npm run build
 
-## commit dist + src
+## commit src
 git commit -am 'updated icons'
+
+## publish new version
+npm run release
 ```
