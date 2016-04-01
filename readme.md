@@ -54,3 +54,8 @@ git commit -am 'updated icons'
 ## publish new version
 npm run release
 ```
+
+## Changelog
+
+#### 0.1.0
+- initial release with updated icons
