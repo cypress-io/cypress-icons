@@ -4,8 +4,8 @@ distPath = (args...) ->
   path.join(__dirname, "..", "dist", args...)
 
 module.exports = {
-  getPathToFavicon: ->
-    distPath("favicon", "favicon.ico")
+  getPathToFavicon: (filename) ->
+    distPath("favicon", filename)
 
   getPathToTray: (filename) ->
     distPath("tray", filename)

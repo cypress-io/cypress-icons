@@ -17,17 +17,20 @@ npm install @cypress/core-icons
 ```coffeescript
 icons = require("@cypress/core-icons")
 
-## get the absolute path to favicon
-icons.getPathToFavicon()
-## => /Users/.../dist/favicon/favicon.ico
+## get the absolute path to default favicon
+icons.getPathToFavicon( *filename* )
+icons.getPathToFavicon("favicon-blue.ico")
+## => /Users/.../dist/favicon/favicon-blue.ico
 
 ## get the absolute path to tray icon
 icons.getPathToTray( *filename* )
-## => /Users/.../dist/tray/*filename*
+icons.getPathToTray("mac-normal-red.png")
+## => /Users/.../dist/tray/mac-normal-red.png
 
 ## get the absolute path to icon
 icons.getPathToIcon( *filename* )
-## => /Users/.../dist/icons/*filename*
+icons.getPathToIcon("icon_32x32@2x.png")
+## => /Users/.../dist/icons/icon_32x32@2x.png
 ```
 
 ## Linking while Developing
