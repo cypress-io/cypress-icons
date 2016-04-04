@@ -60,5 +60,9 @@ npm run release
 
 ## Changelog
 
+#### 0.2.0
+- scoped package to cypress org
+- updated favicon api to take path argument
+
 #### 0.1.0
 - initial release with updated icons
