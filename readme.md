@@ -60,6 +60,10 @@ npm run release
 
 ## Changelog
 
+#### 0.2.1
+- updated red and blue tray icons to be darker shade
+- updated red and blue favicons to be darker shade
+
 #### 0.2.0
 - scoped package to cypress org
 - updated favicon api to take path argument
