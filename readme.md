@@ -60,6 +60,9 @@ npm run release
 
 ## Changelog
 
+#### 0.3.0
+- added new icon sizes: 48@2x, 48, 38, 19
+
 #### 0.2.1
 - updated red and blue tray icons to be darker shade
 - updated red and blue favicons to be darker shade
