@@ -60,6 +60,10 @@ npm run release
 
 ## Changelog
 
+#### 0.3.1
+- updated node version to 5.10.0
+- bump dep
+
 #### 0.3.0
 - added new icon sizes: 48@2x, 48, 38, 19
 
