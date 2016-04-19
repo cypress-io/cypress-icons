@@ -15,7 +15,7 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "coffee-script": "^1.10.0",
-    "@cypress/core-releaser": "0.1.4",
+    "@cypress/core-releaser": "0.1.6",
     "mocha": "^2.4.5"
   },
   "dependencies": {},
