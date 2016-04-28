@@ -66,6 +66,9 @@ npm test
 
 ## Changelog
 
+#### 0.4.0
+- added new method to get path to logo
+
 #### 0.3.2
 - added logo folder with black cypress logo
 
