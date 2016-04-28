@@ -60,6 +60,9 @@ npm run release
 
 ## Changelog
 
+#### 0.3.2
+- added logo folder with black cypress logo
+
 #### 0.3.1
 - updated node version to 5.10.0
 - bump dep
