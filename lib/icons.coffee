@@ -12,4 +12,7 @@ module.exports = {
 
   getPathToIcon: (filename) ->
     distPath("icons", filename)
+
+  getPathToLogo: (filename) ->
+    distPath("logo", filename)
 }

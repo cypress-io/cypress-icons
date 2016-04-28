@@ -42,7 +42,7 @@ cd ../path/to/your/project
 npm link cypress-core-icons
 ```
 
-## Contributing
+## Developing
 
 ```bash
 ## modify files in ./src
@@ -56,6 +56,12 @@ git commit -am 'updated icons'
 
 ## publish new version
 npm run release
+```
+
+## Testing
+
+```bash
+npm test
 ```
 
 ## Changelog

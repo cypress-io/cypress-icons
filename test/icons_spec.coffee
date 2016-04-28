@@ -12,3 +12,6 @@ describe "Cypress Icons", ->
 
   it "returns path to icon", ->
     expect(icons.getPathToIcon("cypress.icns")).to.eq(cwd + "/dist/icons/cypress.icns")
+
+  it "returns path to logo", ->
+    expect(icons.getPathToLogo("cypress-bw.png")).to.eq(cwd + "/dist/logo/cypress-bw.png")
