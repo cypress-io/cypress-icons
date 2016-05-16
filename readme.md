@@ -66,6 +66,9 @@ npm test
 
 ## Changelog
 
+#### 0.4.1
+- fix failing iconset build
+
 #### 0.4.0
 - added new method to get path to logo
 
