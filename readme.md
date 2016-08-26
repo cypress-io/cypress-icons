@@ -66,6 +66,9 @@ npm test
 
 ## Changelog
 
+#### 0.5.0
+- added inverse logo
+
 #### 0.4.1
 - fix failing iconset build
 
