@@ -1,5 +1,5 @@
 {
-  "name": "@cypress/core-icons",
+  "name": "@cypress/icons",
   "version": "0.4.1",
   "description": "Cypress Icons",
   "main": "index.js",
@@ -21,10 +21,10 @@
   "dependencies": {},
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cypress-io/cypress-core-icons.git"
+    "url": "git+https://github.com/cypress-io/cypress-icons.git"
   },
   "bugs": {
-    "url": "https://github.com/cypress-io/cypress-core-icons/issues"
+    "url": "https://github.com/cypress-io/cypress-icons/issues"
   },
-  "homepage": "https://github.com/cypress-io/cypress-core-icons#readme"
+  "homepage": "https://github.com/cypress-io/cypress-icons#readme"
 }
