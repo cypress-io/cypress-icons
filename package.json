@@ -13,12 +13,13 @@
   "author": "Brian Mann",
   "license": "MIT",
   "devDependencies": {
+    "@cypress/releaser": "0.1.11",
     "chai": "^3.5.0",
-    "coffee-script": "^1.10.0",
-    "@cypress/core-releaser": "0.1.6",
     "mocha": "^2.4.5"
   },
-  "dependencies": {},
+  "dependencies": {
+    "@cypress/coffee-script": "0.1.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/cypress-io/cypress-icons.git"
