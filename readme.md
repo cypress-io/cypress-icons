@@ -66,6 +66,9 @@ npm test
 
 ## Changelog
 
+#### 0.5.2 - *(04/20/17)*
+- bump cypress-coffee-script and releaser dep
+
 #### 0.5.1 - *(04/20/17)*
 - renamed package, use cypress-coffee-script
 
