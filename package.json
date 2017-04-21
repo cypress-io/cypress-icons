@@ -1,6 +1,6 @@
 {
   "name": "@cypress/icons",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Cypress Icons",
   "main": "index.js",
   "scripts": {
