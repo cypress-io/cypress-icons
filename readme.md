@@ -9,13 +9,13 @@ The public API will always reference these files.
 ## Installing
 
 ```bash
-npm install @cypress/core-icons
+npm install @cypress/icons
 ```
 
 ## API
 
 ```coffeescript
-icons = require("@cypress/core-icons")
+icons = require("@cypress/icons")
 
 ## get the absolute path to default favicon
 icons.getPathToFavicon( *filename* )
@@ -36,10 +36,10 @@ icons.getPathToIcon("icon_32x32@2x.png")
 ## Linking while Developing
 
 ```bash
-cd cypress-core-icons
+cd cypress-icons
 npm link
 cd ../path/to/your/project
-npm link cypress-core-icons
+npm link cypress-icons
 ```
 
 ## Developing

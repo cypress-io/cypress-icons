@@ -4,7 +4,7 @@
   "description": "Cypress Icons",
   "main": "index.js",
   "scripts": {
-    "build": "bin/build.sh",
+    "build": "scripts/build.sh",
     "test": "NODE_ENV=test mocha --watch",
     "test-ci": "NODE_ENV=test mocha",
     "prepublish": "npm run build",
