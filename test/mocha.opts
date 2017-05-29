@@ -1,4 +1,3 @@
 test
---reporter spec
---compilers coffee:@cypress/coffee-script
+--compilers coffee:coffee-script/register
 --recursive
