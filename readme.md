@@ -66,6 +66,9 @@ npm test
 
 ## Changelog
 
+#### 0.5.4 - *(05/29/17)*
+- rename package
+
 #### 0.5.3 - *(05/29/17)*
 - remove coffee-script, use es6
 
