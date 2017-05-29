@@ -66,6 +66,9 @@ npm test
 
 ## Changelog
 
+#### 0.5.3 - *(05/29/17)*
+- remove coffee-script, use es6
+
 #### 0.5.2 - *(04/20/17)*
 - bump cypress-coffee-script and releaser dep
 
