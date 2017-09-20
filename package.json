@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "scripts/build.sh",
+    "postbuild": "node ./scripts/ico.js",
     "test": "NODE_ENV=test mocha",
     "test-watch": "NODE_ENV=test mocha --watch",
     "prepublish": "npm run build",
@@ -15,8 +16,8 @@
   "devDependencies": {
     "@cypress/releaser": "0.1.12",
     "chai": "^3.5.0",
-    "coffee-script": "1.12.6",
-    "mocha": "^2.4.5"
+    "mocha": "^2.4.5",
+    "to-ico": "^1.1.5"
   },
   "repository": {
     "type": "git",
