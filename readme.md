@@ -66,6 +66,10 @@ npm test
 
 ## Changelog
 
+#### 0.6.0 - *(09/20/17)*
+- added cypress.ico icons for windows
+- remove coffeescript dep
+
 #### 0.5.4 - *(05/29/17)*
 - rename package
 
