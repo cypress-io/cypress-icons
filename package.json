@@ -14,7 +14,7 @@
   "author": "Brian Mann",
   "license": "MIT",
   "devDependencies": {
-    "@cypress/releaser": "0.1.12",
+    "@cypress/releaser": "0.2.2",
     "chai": "^3.5.0",
     "mocha": "^2.4.5",
     "to-ico": "^1.1.5"
