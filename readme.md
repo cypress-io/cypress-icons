@@ -66,6 +66,10 @@ npm test
 
 ## Changelog
 
+#### 0.7.0 - *(05/29/18)*
+- add inverse logos
+- ignore src and test for npm module
+
 #### 0.6.0 - *(09/20/17)*
 - added cypress.ico icons for windows
 - remove coffeescript dep
